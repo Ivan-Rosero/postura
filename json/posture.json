@@ -1,0 +1,33 @@
+{
+    "questions":[
+        {"1": "¿Las pantallas estan libres de reflejos o titileos?"},
+        {"2": "¿Las herramientas de oficina se encuentran sin daños o imperfectos?"},
+        {"3": "¿Los puestos se encuentran libres de obstáculos (cajas, cables) debajo de los mismos?"}
+    ],
+    "suggestion":[
+        {"1": "Se recomienda ubicar la pantalla en un lugar donde haya menos reflejos de luz hacia sus ojos"},
+        {"2": "Se recomienda arreglar los daños de las herramientas de trabajo"},
+        {"3": "Se recomienda organizar el espacio de trabajo para evitar accidentes al caminar"},
+        {"4": "Se recomienda usar una silla que facilite la movilidad en su espacio y tenga buen espaldar"},
+        {"5": "Se recomienda que la pantalla esté en un plano visual del usuario"},
+        {"6": "No se logra identificar su espalda, se recomienda subir la foto de perfil"},     
+        {"7": "No se logra identificar una postura sentado"},
+        {"8": "No se logra identificar su cuello"},
+        {"9": "No se logra identificar correctamente a una persona en la foto"}
+    ],
+    "response":[
+        {"1": "En terminos generales tiene buena postura para el trabajo en escritorio"},
+        {"2": "Se solicita por favor corregir su postura, tanto para su cuello, espalda y forma de sentarse"},
+        {"3": "Se observa una postura adecuada para la espalda"},
+        {"4": "Se observa una buena postura al sentarse"},
+        {"5": "Se observa una postura adecuada para el cuello"},
+        {"6": "Se recomienda tener la espalda en una posición correcta"},
+        {"7": "Se recomienda tener una postura del cuello firme"},
+        {"8": "Se recomienda sentarse adecuadamente y ubicar las piernas correctamente debajo del escritorio"}
+        
+    ],
+    "label": "wheel",
+    "image":["posture"],
+    "reference": [["backbone_good", "backbone_bad"], ["buttocks_good", "buttocks_bad"], ["neck_good", "neck_bad"]]
+
+}
